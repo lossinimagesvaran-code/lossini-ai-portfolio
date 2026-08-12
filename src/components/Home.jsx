@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-darker via-dark to-darker relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-24 bg-gradient-to-br from-darker via-dark to-darker relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-primary/5 rounded-full blur-3xl animate-subtle-pulse"></div>
         <div className="absolute -bottom-1/2 -right-1/2 w-full h-full bg-secondary/5 rounded-full blur-3xl animate-subtle-pulse" style={{ animationDelay: '1.5s' }}></div>
@@ -54,12 +54,6 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </div>
-      
-      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
       </div>
     </section>
   )
